@@ -1,0 +1,180 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "heroCta1": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "heroCta2": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyBody": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "philosophySubtext": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "philosophyCta1": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyCta2": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "offeringsEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "offeringsHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "offeringsHeadlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "offeringsCtaLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "practitionersEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "practitionersHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "practitionersHeadlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "practitionersCtaLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "galleryEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "galleryHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "galleryHeadlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "gallerySubline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "galleryCtaLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "galleryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "testimonialsEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "testimonialsHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "testimonialsHeadlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeEyebrow": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeHeadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeHeadlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeBody": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "subscribeCtaLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeNoSpam": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "subscribeEmailPlaceholder": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    }
+  }
+}

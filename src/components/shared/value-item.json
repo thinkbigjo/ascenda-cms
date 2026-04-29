@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_value_items",
+  "info": {
+    "displayName": "Value Item",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "desc": { "type": "text" }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "tagline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "navigateLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "offeringsLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "contactLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "bookNowLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "copyright": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "backToTopLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "privacyLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "termsLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "logoLight": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "logoWordmark": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "logoDark": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "businessEmail": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "businessPhone": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "whatsappNumber": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "instagramUrl": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "instagramHandle": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "openingHours": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.opening-hours",
+      "required": true,
+      "min": 1
+    },
+    "facebookUrl": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    },
+    "linkedInUrl": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "string",
+      "required": true
+    }
+  }
+}

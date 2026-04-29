@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "heroTitle": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "missionLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "missionQuote": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "philosophyLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "philosophyBody": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "valuesLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "values": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value-item",
+      "min": 1,
+      "required": true
+    },
+    "differenceLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "differenceText": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text",
+      "required": true
+    },
+    "ctaLabel": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    },
+    "ctaButton": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string",
+      "required": true
+    }
+  }
+}

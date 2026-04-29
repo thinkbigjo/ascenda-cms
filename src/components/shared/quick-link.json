@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_quick_links",
+  "info": {
+    "displayName": "Quick Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "url": { "type": "string" }
+  }
+}

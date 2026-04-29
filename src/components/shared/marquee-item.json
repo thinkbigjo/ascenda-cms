@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_marquee_items",
+  "info": {
+    "displayName": "Marquee Item",
+    "icon": "text"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_heroes",
+  "info": {
+    "singularName": "page-hero",
+    "pluralName": "page-heroes",
+    "displayName": "Page Hero"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "page": {
+      "pluginOptions": { "i18n": { "localized": false } },
+      "type": "enumeration",
+      "enum": ["home", "about", "offerings", "practitioners", "blog", "gallery", "faq", "contact"],
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "heroVideoDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos"]
+    },
+    "heroVideoMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos"]
+    },
+    "tagline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string"
+    },
+    "headline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string"
+    },
+    "headlineItalic": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "string"
+    },
+    "subheadline": {
+      "pluginOptions": { "i18n": { "localized": true } },
+      "type": "text"
+    },
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}
